@@ -9,7 +9,7 @@ public class ContaTerminal {
     System.out.println("Digite o número da Agência: ");
        int Agencia = novo.nextInt();
     System.out.println("Digite nome do cliente: ");
-        String Nome_Cliente = novo.nextLine();
+        String Nome_Cliente = novo.next();
     System.out.println("Digite o saldo: ");
         Float Saldo = novo.nextFloat(); 
 
